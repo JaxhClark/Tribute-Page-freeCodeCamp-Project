@@ -1,0 +1,129 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<!--HEAD STUFF-->
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Martin Luther King Jr.</title>
+  </head>
+
+<!--MAIN CONTENT-->
+  <main id="main">
+    <div class="back-image">
+      <div class="overlay"><h1 id="title">Martin Luther King Jr.</h1>
+      <p>The man who had a dream</p></div>
+    </div>
+
+    <figure id="img-div">
+      <img id="image" src="https://www.usatoday.com/gcdn/presto/2023/08/21/USAT/e50201ee-bd30-4ebc-9d84-c0c8cc691387-XXX_sdTOPSHOT-BIO-MARTIN_LUTHER_KING-MARCH_ON_WASHINGTON_176910.jpg?crop=2999,1687,x0,y63&width=660&height=371&format=pjpg&auto=webp" alt="Martin giving his legendary speecg">
+      <figcaption id="img-caption">
+        Martin Luther King Jr. giving his legendary speech at the Lincoln Memorial.
+      </figcaption>
+    </figure>
+
+  <section id="tribute-info">
+    <h2>This is his story</h2>
+    <p>Credit: <a href="https://kinginstitute.stanford.edu/king-resources/major-king-events-chronology-1929-1968">Stanford University</a></p>
+
+    <ul>
+      <li>1929: Martin Luther King Jr. is born in Atlanta, Georgia.</li>
+      <li>1944: Enrolls at Morehouse College at age 15, skipping 9th and 12th grades.</li>
+      <li>1948: Graduates from Morehouse College with a Bachelor’s degree in sociology. Enrolls at Crozer Theological Seminary in Pennsylvania.</li>
+      <li>1951: Graduates from Crozer Theological Seminary with a Bachelor of Divinity degree and begins doctoral studies at Boston University.</li>
+      <li>1953: Marries Coretta Scott in Marion, Alabama.</li>
+      <li>1955: Receives his Ph.D. in Systematic Theology from Boston University Rosa Parks is arrested, sparking the Montgomery Bus Boycott. King is elected president of the Montgomery Improvement Association, launching the boycott.</li>
+      <li>1956: Montgomery Bus Boycott ends after 381 days following a Supreme Court ruling that segregation on public buses is unconstitutional.</li>
+      <li>1963: Writes the “Letter from Birmingham Jail” after being arrested during a nonviolent protest in Birmingham, Alabama Delivers his famous “I Have a Dream” speech at the March on Washington for Jobs and Freedom.</li>
+      <li>1964: The Civil Rights Act is signed into law. Receives the Nobel Peace Prize for his work in combating racial inequality through nonviolent resistance.</li>
+      <li>1965: Leads the Selma to Montgomery marches, pushing for African American voting rights. The Voting Rights Act is signed into law.</li>
+      <li>1968: Martin Luther King Jr. is assassinated in Memphis, Tennessee, while supporting a sanitation workers' strike.</li>
+    </ul>
+    
+    <p class="martinquote"><em>"Darkness cannot drive out darkness, only light can do that. Hate cannot drive out hate, only love can do that."<br>- Martin Luther King Jr.</em></p>
+    <h2>Please spare time to read more about his <a id="tribute-link" href="https://en.wikipedia.org/wiki/I_Have_a_Dream" target="_blank">dream</a></h2>
+  </section>
+
+  </main>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #272b30;
+  color: white;
+  font-family: helvetica, sans-serif;
+}
+
+.back-image {
+  background-image: url(https://i.natgeofe.com/n/788a2dbf-f8b0-449f-b01e-f075ecbac5f6/03-martin-luther-king_3x2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  height: 300px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+figure {
+  padding-top: 50px;
+}
+
+#img-caption {
+  font-size: 0.8rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #1b1e21;
+  padding: 25px 0;
+}
+
+li {
+  margin: 30px;
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #764691;
+}
+
+.martinquote {
+  text-align: center;
+  padding: 50px;
+}
+
+** end of undefined **
+
